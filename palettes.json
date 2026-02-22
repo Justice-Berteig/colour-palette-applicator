@@ -50,5 +50,31 @@
     "dark_cyan"    : "#718F8D",
     "dark_blue"    : "#717A8F",
     "dark_purple"  : "#8C718F"
+  },
+  "nausicaa": {
+    "fg0"          : "#faf9e8",
+    "fg1"          : "#edeccf",
+    "fg2"          : "#dfd6c3",
+    "fg3"          : "#d1bfb6",
+    "fg4"          : "#c3a9aa",
+    "fg5"          : "#b5929d",
+    "bg0"          : "#05020c",
+    "bg1"          : "#060918",
+    "bg2"          : "#070f24",
+    "bg3"          : "#09162f",
+    "bg4"          : "#0a1c3b",
+    "bg5"          : "#0b2347",
+    "bright_red"   : "#f25757",
+    "bright_green" : "#41ba6e",
+    "bright_orange": "#f2955e",
+    "bright_blue"  : "#04b2d9",
+    "bright_pink"  : "#ee8397",
+    "bright_cyan"  : "#17b0a1",
+    "dark_red"     : "#943b3b",
+    "dark_green"   : "#3d7b53",
+    "dark_orange"  : "#9f6341",
+    "dark_blue"    : "#146c8f",
+    "dark_pink"    : "#9c4968",
+    "dark_cyan"    : "#2c7d74"
   }
 }
