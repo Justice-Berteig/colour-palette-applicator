@@ -1,11 +1,21 @@
+import os
 import re
 from utils import getConfigPath
 
-CONFIG_FILE_PATH = getConfigPath() + "/nvim/colourschemes/metalheart/lua/lush_theme/metalheart.lua"
+CONFIG_FOLDER_PATH = getConfigPath() + "/nvim/colourschemes"
 
 
 def apply_colours_to_nvim(colours):
-    print("Applying colours to nvim config... ", end='')
+    print("Applying colours to nvim config... ")
+    print("\tTrying to find colourscheme file...")
+
+    dir_names = os.listdir(CONFIG_FOLDER_PATH)
+    if len(dir_names) > 1:
+        raise RuntimeError("Error: Multiple Neovim colourschemes present. Don't know which to replace!")
+    elif len(dir_names) < 1:
+        raise RuntimeError("Error: No Neovim colourscheme present!")
+    CONFIG_FILE_PATH = CONFIG_FOLDER_PATH + "/" + dir_names[0] + "/lua/lush_theme/" + dir_names[0] + ".lua"
+    print("\tFound colourscheme file at " + CONFIG_FILE_PATH)
 
     lines = []
     with open(CONFIG_FILE_PATH) as config_file:
