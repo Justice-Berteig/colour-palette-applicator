@@ -65,17 +65,17 @@
     "bg4"          : "#0a1c3b",
     "bg5"          : "#0b2347",
     "bright_red"   : "#f25757",
+    "bright_yellow": "#f2955e",
     "bright_green" : "#41ba6e",
-    "bright_orange": "#f2955e",
-    "bright_blue"  : "#04b2d9",
-    "bright_pink"  : "#ee8397",
     "bright_cyan"  : "#17b0a1",
+    "bright_blue"  : "#04b2d9",
+    "bright_purple"  : "#ee8397",
     "dark_red"     : "#943b3b",
+    "dark_yellow"  : "#9f6341",
     "dark_green"   : "#3d7b53",
-    "dark_orange"  : "#9f6341",
+    "dark_cyan"    : "#2c7d74",
     "dark_blue"    : "#146c8f",
-    "dark_pink"    : "#9c4968",
-    "dark_cyan"    : "#2c7d74"
+    "dark_purple"    : "#9c4968"
   },
   "honey": {
     "fg0":           "#E7E4D8",
