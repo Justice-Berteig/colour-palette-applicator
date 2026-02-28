@@ -15,8 +15,8 @@ free to use it but be careful.<br>
 **THIS WILL OVERWRITE STUFF IN YOUR .config FOLDER** be careful.<br>
 <br>
 For this program to work correctly your .config must be organized pretty much
-exactly the same way as mine.<br>
-(I will put my dots in another repo soon...)<br>
+exactly the same way as mine. Check my dotfile repos for examples of how I
+structure my config.<br>
 
 # Usage:
 To use just run `python main.py` and choose a colourscheme.<br>
