@@ -1,5 +1,6 @@
 import json
 
+from targets.btop     import apply_colours_to_btop
 from targets.foot     import apply_colours_to_foot
 from targets.fuzzel   import apply_colours_to_fuzzel
 from targets.hyprland import apply_colours_to_hyprland
@@ -65,6 +66,7 @@ def main():
     palette = choose_palette(palettes)
 
     # Apply colours to all targets
+    apply_colours_to_btop(palette)
     apply_colours_to_foot(palette)
     apply_colours_to_fuzzel(palette)
     apply_colours_to_hyprland(palette)

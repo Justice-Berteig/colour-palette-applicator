@@ -20,22 +20,6 @@ def apply_colours_to_fuzzel(colours):
         print("\tFailed to apply colours to fuzzel config!")
         return
 
-    """
-    colour_map = {
-        "background"     : "bg0",
-        "text"           : "fg0",
-        "prompt"         : "bright_blue",
-        "placeholder"    : "dark_blue",
-        "input"          : "fg2",
-        "match"          : "bright_green",
-        "selection"      : "fg1",
-        "selection-text" : "bg0",
-        "selection-match": "dark_green",
-        "counter"        : "fg2",
-        "border"         : "fg5"
-    }
-    """
-
     lines = []
     with open(CONFIG_FILE_PATH) as config_file:
         in_colour_section = False
