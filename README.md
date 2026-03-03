@@ -1,15 +1,16 @@
 This is a small program I use to apply a colourscheme to my Linux rice. It's
 only really meant to be used by me but maybe the code will be useful to someone
 else.<br>
-If you look at the code and think it might actually be usable for you feel feel
-free to use it but be careful.<br>
+If you do end up using it please be aware that it *will* overwrite stuff in your
+.config folder. Please back up your dotfiles.<br>
 <br>
 **It applies a colourscheme to the following programs:**<br>
-- Foot<br>
-- Fuzzel<br>
-- Hyprland<br>
-- Nvim<br>
-- Waybar<br>
+- btop
+- foot
+- fuzzel
+- hyprland
+- Neovim
+- Waybar
 
 # Important:
 **THIS WILL OVERWRITE STUFF IN YOUR .config FOLDER** be careful.<br>
