@@ -1,0 +1,28 @@
+{
+  "colours": {
+    "fg0"          : "#FAF9E8",
+    "fg1"          : "#EDECCF",
+    "fg2"          : "#DFD6C3",
+    "fg3"          : "#D1BFB6",
+    "fg4"          : "#C3A9AA",
+    "fg5"          : "#B5929D",
+    "bg0"          : "#05020C",
+    "bg1"          : "#060918",
+    "bg2"          : "#070F24",
+    "bg3"          : "#09162F",
+    "bg4"          : "#0A1C3B",
+    "bg5"          : "#0B2347",
+    "bright_red"   : "#F25757",
+    "bright_yellow": "#F2955E",
+    "bright_green" : "#41BA6E",
+    "bright_cyan"  : "#17B0A1",
+    "bright_blue"  : "#04B2D9",
+    "bright_purple": "#EE8397",
+    "dark_red"     : "#943B3B",
+    "dark_yellow"  : "#9F6341",
+    "dark_green"   : "#3D7B53",
+    "dark_cyan"    : "#2C7D74",
+    "dark_blue"    : "#146C8F",
+    "dark_purple"  : "#9C4968"
+  }
+}
