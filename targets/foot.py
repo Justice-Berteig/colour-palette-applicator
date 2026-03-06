@@ -40,7 +40,7 @@ def apply_colours_to_foot(colours):
                         foot_colour_name = match.group(1)
                         palette_colour_name = colour_map.pop(foot_colour_name)
                         line = foot_colour_name + " = " + colours[palette_colour_name][1:] + "\n"
-                elif line == "[colors]\n":
+                elif line == "[colors-dark]\n":
                     in_colour_section = True
 
             lines.append(line)
