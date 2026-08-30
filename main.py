@@ -54,11 +54,12 @@ def main():
             palette = json.load(palette_file)
 
         colours = palette["colours"]
+        maps    = palette["maps"]
 
         # Apply palette to targets
-        apply_colours_to_btop(colours)
+        apply_colours_to_btop(colours, maps)
         apply_colours_to_foot(colours)
-        apply_colours_to_fuzzel(colours)
+        apply_colours_to_fuzzel(colours, maps)
         apply_colours_to_hyprland(colours)
         apply_colours_to_nvim(colours)
         apply_colours_to_waybar(colours)

@@ -6,19 +6,11 @@ COLOUR_MAP_FILE_PATH = getConfigPath() + "/fuzzel/colour_map.json"
 CONFIG_FILE_PATH     = getConfigPath() + "/fuzzel/fuzzel.ini"
 
 
-def apply_colours_to_fuzzel(colours):
+def apply_colours_to_fuzzel(colours, maps):
     print("Applying colours to fuzzel config... ", end='')
 
     # Map palette colours to fuzzel config colours
-    colour_map = {}
-    try:
-        with open(COLOUR_MAP_FILE_PATH) as colour_map_file:
-            colour_map = json.load(colour_map_file)
-    except Exception as e:
-        print()
-        print("\t" + str(e))
-        print("\tFailed to apply colours to fuzzel config!")
-        return
+    colour_map = maps["fuzzel"]
 
     lines = []
     with open(CONFIG_FILE_PATH) as config_file:

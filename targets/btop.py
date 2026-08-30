@@ -8,20 +8,11 @@ THEMES_FOLDER_PATH   = CONFIG_FOLDER_PATH + "/themes"
 COLOUR_MAP_FILE_PATH = THEMES_FOLDER_PATH + "/colour_map.json"
 
 
-def apply_colours_to_btop(colours):
+def apply_colours_to_btop(colours, maps):
     print("Applying colours to btop theme... ", end='')
 
     # Map palette colours to btop theme colours
-    colour_map = {}
-    try:
-        with open(COLOUR_MAP_FILE_PATH) as colour_map_file:
-            colour_map = json.load(colour_map_file)
-    except Exception as e:
-        print()
-        print("\t" + str(e))
-        print("\tFailed to apply colours to btop config!")
-        return
-
+    colour_map = maps["btop"]
 
     files = os.listdir(THEMES_FOLDER_PATH)
     theme_files = []
